@@ -9,7 +9,7 @@ if(!username){
     alert("Pleas enter a username.");
     return;
 }
-    const endpoint = new URL(`http://127.0.0.1:5501/${username}/country`);
+    const endpoint = new URL(`https://api-call-tau.vercel.app/${username}/country`);
 
     
 // if your api require authorization tells u in a fashion of a token
@@ -30,3 +30,7 @@ if(!username){
     const data = await response.jason();
     alert(`Country: ${data.country}\nCapital: ${data.capital || "N/A"}\nInternet code: ${data.internetCode}`);
 }
+
+
+
+// ¯\_(ツ)_/¯ stil no consol.log sorry Øystein try again for next one 
