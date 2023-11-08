@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+ /*responsive opp til desktop*/
+ @media(min-height: 1025px){
+
+ }
+
+ /*responsive opp til tablet*/
+ @media(min-height: 770px){
+
+ }
+
+ /*responsive opp til mobil*/
+ @media(min-height: 340px){
+
+ }
